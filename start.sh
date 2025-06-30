@@ -1,1 +1,1 @@
-./sbt "run 9094"
+sbt "run ${PORT}"
