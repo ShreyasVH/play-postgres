@@ -7,7 +7,7 @@ scalaVersion := "3.8.1"
 libraryDependencies += guice
 libraryDependencies += javaJpa
 libraryDependencies += "org.projectlombok" % "lombok" % "1.18.42" % "provided"
-libraryDependencies += "org.postgresql" % "postgresql" % "42.7.9"
+libraryDependencies += "org.postgresql" % "postgresql" % "42.7.10"
 libraryDependencies += "org.hibernate.orm" % "hibernate-core" % "7.2.2.Final"
 
 Compile / javacOptions ++= Seq("-proc:full")
