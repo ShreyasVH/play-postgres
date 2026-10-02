@@ -13,8 +13,9 @@ export REPO_VERSION=$(grep "version := " build.sbt | awk -F\" '{print $2}')
 export REPO_NAME=$(grep "name := " build.sbt | awk -F\" '{print $2}')
 
 export POSTGRES_URL=
+export POSTGRES_IP=
 export POSTGRES_PORT=
 export POSTGRES_DB=
 export POSTGRES_USER=
 export POSTGRES_PASSWORD=
-export POSTGRES_VERSION=
+export USQL_VERSION=
